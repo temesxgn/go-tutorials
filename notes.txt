@@ -1,0 +1,26 @@
+##### INTRO ####
+
+go fmt formats all files in current dir
+go fmt ./... formats all file in current and child dirs in current
+go run 'file name' to run
+go build builds executable
+go install adds executable to the bin folder
+
+insert commands in .bash_profile ( MAC )
+export GOPATH=${HOME}/Documents/GitHub/go
+export GOBIN=${HOME}/Documents/GitHub/go/bin
+export PATH=${HOME}/go/bin:$PATH
+
+entry point of program is package main func main
+each package needs package main and func main
+
+n, err := fmt.Println("Hello", 42, true) gets the number of bytes and errors if any.
+n, _ means that we ignore the error and just throw it away
+
+Cant have unused variables
+The type 'interface{}' is the empty interface
+
+
+View https://golang.org/ref/spec for spec
+
+
