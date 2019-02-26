@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad5e4ae-6800-42ef-b012-0927d98ebc49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/001-hello-world/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-001/exercise001.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-001/instructions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-002/exercise-002.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-002/instructions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-003/exercise-003.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-003/instructions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+    <list default="true" id="8ad5e4ae-6800-42ef-b012-0927d98ebc49" name="Default Changelist" comment="exercises 4 - 8">
+      <change afterPath="$PROJECT_DIR$/exercise-004/exercise-004.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-004/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-005/exercise-005.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-005/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-006/exercise-006.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-006/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-007/exercise-007.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-007/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-008/exercise-008.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-008/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-009/exercise-009.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-009/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-010/exercise-010.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-010/instructionts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-011/exercise-011.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-011/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-012/exercise-012.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-012/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-013/exercise-013.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-013/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-014/exercise-014.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-014/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-015/exercise-015.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-015/instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,84 +36,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-001/instructions.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="1" column="117" selection-start-line="1" selection-start-column="117" selection-end-line="1" selection-end-column="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-001/exercise001.go">
+        <entry file="file://$PROJECT_DIR$/exercise-012/exercise-012.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001-hello-world/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-002/instructions.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="106" selection-start-line="3" selection-start-column="106" selection-end-line="3" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-002/exercise-002.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-003/instructions.txt">
+        <entry file="file://$PROJECT_DIR$/exercise-013/instructions.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise-013/exercise-013.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#15#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise-014/exercise-014.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercise-003/exercise-003.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.11.5/libexec/src/fmt/print.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="219" column="5" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes.txt">
+        <entry file="file://$PROJECT_DIR$/exercise-015/instructions.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise-015/exercise-015.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise-014/instructions.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -122,7 +125,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/exercise-001/instructions.txt" />
         <option value="$PROJECT_DIR$/exercise-001/exercise001.go" />
         <option value="$PROJECT_DIR$/001-hello-world/main.go" />
@@ -130,13 +132,37 @@
         <option value="$PROJECT_DIR$/exercise-002/instructions.txt" />
         <option value="$PROJECT_DIR$/exercise-003/instructions.txt" />
         <option value="$PROJECT_DIR$/exercise-003/exercise-003.go" />
+        <option value="$PROJECT_DIR$/exercise-004/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-004/exercise-004.go" />
+        <option value="$PROJECT_DIR$/exercise-005/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-005/exercise-005.go" />
+        <option value="$PROJECT_DIR$/exercise-006/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-006/exercise-006.go" />
+        <option value="$PROJECT_DIR$/exercise-007/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-007/exercise-007.go" />
+        <option value="$PROJECT_DIR$/exercise-008/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-008/exercise-008.go" />
+        <option value="$PROJECT_DIR$/exercise-009/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-009/exercise-009.go" />
+        <option value="$PROJECT_DIR$/exercise-010/instructionts.txt" />
+        <option value="$PROJECT_DIR$/exercise-010/exercise-010.go" />
+        <option value="$PROJECT_DIR$/exercise-011/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-011/exercise-011.go" />
+        <option value="$PROJECT_DIR$/notes.txt" />
+        <option value="$PROJECT_DIR$/exercise-012/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-012/exercise-013.go" />
+        <option value="$PROJECT_DIR$/exercise-013/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-013/exercise-013.go" />
+        <option value="$PROJECT_DIR$/exercise-014/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-014/exercise-014.go" />
+        <option value="$PROJECT_DIR$/exercise-015/instructions.txt" />
+        <option value="$PROJECT_DIR$/exercise-015/exercise-015.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,27 +180,23 @@
             <path>
               <item name="go-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-002" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-014" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-003" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-003" type="462c0819:PsiDirectoryNode" />
-              <item name=".gitignore" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-015" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -216,16 +237,12 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26007327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23687424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.46203208" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
@@ -233,14 +250,24 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3102041" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exercises 4 - 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercises 4 - 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -248,27 +275,13 @@
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/exercise-002/exercise-002.go</url>
           <line>8</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go" />
     <entry file="file://$PROJECT_DIR$/exercise-001/instructions.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -320,8 +333,190 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise-003/exercise-003.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-006/quiz.txt" />
+    <entry file="file://$PROJECT_DIR$/exercise-004/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-004/exercise-004.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-005/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-005/exercise-005.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-006/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="64" selection-start-column="64" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-006/exercise-006.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-007/exercise-007.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-007/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-008/exercise-008.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-008/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="58" selection-start-column="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-011/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-012/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-011/exercise-011.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-010/exercise-010.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-010/instructionts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-009/exercise-009.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-009/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-012/exercise-012.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-013/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-014/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-013/exercise-013.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#15#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-014/exercise-014.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-015/exercise-015.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-015/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>

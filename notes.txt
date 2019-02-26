@@ -20,7 +20,75 @@ n, _ means that we ignore the error and just throw it away
 Cant have unused variables
 The type 'interface{}' is the empty interface
 
+## GO Spec
+https://golang.org/ref/spec for spec
 
-View https://golang.org/ref/spec for spec
+## Idiomatic GO
+https://about.sourcegraph.com/go/idiomatic-go
+
+## Numeric Types
+int - numbers without decimals
+    - int & uint
+    - all numeric types are distinct except
+        byte which is an alias for uint8
+        rune which is an alias for int32
+    - types are unique
+    - Conversions are required when different numeric types are mixed in an expression or assignment.
+        For instance, int32 and int are not the same type even though they may have the same size on a particular architecture
+    - JUST USE int
+float - numbers with decimals
+      - JUST USE gloat64
+
+runtime package
+    - GOOS
+    - GOARCH
+
+## String
+- A string value is a (possibly empty) sequence of bytes.
+    Strings are immutable: once created, it is impossible to change the contents of a string.
+- Can be created with Double Quotes "" or back ticks ``. Back ticks includes returns, whitespaces, etc.
+
+## Constants
+can have a const block instead of putting const for each variable
+2 types (Constants of a kind):
+    - typed
+    - untyped
+
+## Iota
+- Can be used to auto-increment by 1
+- i.e. in a const block declaring
+const (
+    a = iota
+    b
+    c
+)
+
+would produce: 1,2,3. separate const blocks would reset
+
+## Bit Shifting
+- remember numbers in binary: 0 = 0, 1 = 1, 2 = 10, 3 = 11, 4 = 100
+- so if we had 0000 0010 we can shift like 0000 0100
+- operators: >> and <<
+
+## Control Flow
+
+    ##Loops
+        - There are three ways you can do loops in Go - they all just use the “for” keyword:
+        - for init; condition; post { }
+        - for condition { }
+        - for { }
+
+    ##Switch
+        - A fallthrough statement transfers control to the next case.
+        - It may be used only as the final statement in a clause.
+        - A switch statement runs the first case equal to the condition expression.
+        - The cases are evaluated from top to bottom, stopping when a case succeeds.
+        - Unlike C and Java, the case expressions do not need to be constants.
+        - A switch without a condition is the same as switch true.
+        - A break statement terminates execution of the innermost for, switch, or select statement.
+        - If you need to break out of a surrounding loop, not the switch, you can put a label on the loop and break to that label.
+
+
+
 
 
