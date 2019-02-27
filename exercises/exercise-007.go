@@ -2,6 +2,18 @@ package main
 
 import "fmt"
 
+/**
+Using the following the operators, write expressions and assign their values to variables and print them
+
+1. ==
+2. <=
+3. >=
+4. !=
+5. <
+6. >
+
+*/
+
 func main() {
 
 	a := 42 == 42

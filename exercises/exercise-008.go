@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/**
+Create a TYPED and UNTYPED constants and print the values.
+*/
+
 const (
 	typed   int = 32
 	untyped     = 34

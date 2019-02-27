@@ -1,3 +1,8 @@
+package main
+
+import "fmt"
+
+/**
 1.  Use var to DECLARE three variables.
     The variables should have package level scope.
     Do not assign VALUES to the variables.
@@ -10,3 +15,16 @@
 
     a) print out the values for each identifier
     b) the compiler assigned values to the variables. What are these values called?
+*/
+
+var x int
+var y string
+var z bool
+
+func main() {
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
+
+	// Compiler assigned values is called zero value
+}
