@@ -1,4 +1,6 @@
 ##### INTRO ####
+EASE OF PROGRAMMING
+EFFICIENT EXECUTION & COMPILATION
 
 go fmt formats all files in current dir
 go fmt ./... formats all file in current and child dirs in current
@@ -87,6 +89,32 @@ would produce: 1,2,3. separate const blocks would reset
         - A switch without a condition is the same as switch true.
         - A break statement terminates execution of the innermost for, switch, or select statement.
         - If you need to break out of a surrounding loop, not the switch, you can put a label on the loop and break to that label.
+
+## Array
+- building block for slices
+- Arrays are values. Assigning one array to another copies all the elements.
+- if you pass an array to a function, it will receive a copy of the array, not a pointer to it
+- The size of an array is part of its type. The types [10]int and [20]int are distinct
+- The value property can be useful but also expensive
+- if you want C-like behavior and efficiency, you can pass a pointer to the array i.e. &arrayName
+- USE SLICES INSTEAD
+
+    ##SLICE
+    - holds VALUES of the same TYPE
+    - COMPOSITE LITERAL to create a slice.
+      A composite literal is created by having the TYPE
+      followed by CURLY BRACES and then putting the appropriate values in the curly brace area.
+    - use the built in function make to specify how large our slice should be
+      and also how large the underlying array should be. This can enhance performance a little bit
+## MAP
+- The syntax for a map is map[key]value
+- A map is the perfect data structure when you need to look up data fast.
+
+    ##DELETE
+    - delete(<map name>, “key”)
+    - No error is thrown if you use a key which does not exist
+    - To confirm you delete a key/value, verify that the key/value exists with the comma ok idiom
+
 
 
 
