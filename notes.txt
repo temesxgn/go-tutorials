@@ -106,6 +106,7 @@ would produce: 1,2,3. separate const blocks would reset
       followed by CURLY BRACES and then putting the appropriate values in the curly brace area.
     - use the built in function make to specify how large our slice should be
       and also how large the underlying array should be. This can enhance performance a little bit
+    - To DELETE from a slice, we use APPEND along with SLICING
 ## MAP
 - The syntax for a map is map[key]value
 - A map is the perfect data structure when you need to look up data fast.
@@ -115,6 +116,14 @@ would produce: 1,2,3. separate const blocks would reset
     - No error is thrown if you use a key which does not exist
     - To confirm you delete a key/value, verify that the key/value exists with the comma ok idiom
 
+## Struct
+
+- A struct is an composite data type.
+  Structs allow us to compose together values of different types
+
+  ## Embedded Struct
+  - We can take one struct and embed it in another struct.
+    When you do this the inner type gets promoted to the outer type
 
 
 
