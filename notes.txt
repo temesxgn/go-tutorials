@@ -123,7 +123,10 @@ would produce: 1,2,3. separate const blocks would reset
 
   ## Embedded Struct
   - We can take one struct and embed it in another struct.
-    When you do this the inner type gets promoted to the outer type
+    When you do this the inner type gets promoted to the outer type so sa.firstName instead of sa.person.firstName
+
+  ## Anonymous Struct
+  - Struct which is not associated with a specific identifier.
 
 
 
