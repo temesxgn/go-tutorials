@@ -128,6 +128,64 @@ would produce: 1,2,3. separate const blocks would reset
   ## Anonymous Struct
   - Struct which is not associated with a specific identifier.
 
+## Functions
+
+    - func (receiver) identifier(parameters) (returns) { code }
+    - know the difference between parameters and arguments
+    - we define our func with parameters (if any)
+    - we call our func and pass in arguments (in any)
+    - Everything in Go is PASS BY VALUE
+
+    ## Variadic parameter
+    - func which takes an unlimited number of arguments.
+    - When use the lexical element operator “...T” to signify a variadic parameter (there “T” represents some type)
+
+    ## Unfurling a slice
+    - When you have a slice of some type, you can pass in the individual values in a slice by using the “...” operator
+
+    ## Defer
+    - function whose execution is deferred to the moment the surrounding function returnseither because the surrounding function executed a return statement,
+      reached the end of its function body, or because the corresponding goroutine is panicking.
+
+    ## Methods
+    - A method is nothing more than a FUNC attached to a TYPE.
+    - When you attach a func to a type it is a method of that type.
+    - You attach a func to a type with a RECEIVER
+
+    ## Interfaces & Polymorphism
+    - Values can be of more than one type.
+    - An interface allows a value to be of more than one type.
+    - We create an interface using this syntax: “keyword identifier type”. i.e. “type human interface”
+    - We then define which method(s) a type must have to implement that interface.
+    - If a TYPE has the required methods, which could be none (the empty interface denoted by interface{}),
+      then that TYPE implicitly implements the interface and is also of that interface type.
+    - Values can be of more than one type.
+
+    ## Anonymous Function
+    - Anonymous self-executing func
+
+    ## Function Expression
+    - Assigning a func to a variable
+
+    ## Returning a func
+    - You can return a func from a func.
+
+    ## Callback
+    - passing a func as an argument
+    - functional programming not something that is recommended in go, however, it is good to be aware of callbacks
+    - idiomatic go: write clear, simple, readable code
+
+    ## Closure
+    - one scope enclosing other scopes
+    - variables declared in the outer scope are accessible in inner scopes
+    - closure helps us limit the scope of variables
+
+    ## Recursion
+    - a func that calls itself
+
+
+
+
 
 
 
