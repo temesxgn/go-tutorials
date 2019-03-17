@@ -39,7 +39,7 @@ int - numbers without decimals
         For instance, int32 and int are not the same type even though they may have the same size on a particular architecture
     - JUST USE int
 float - numbers with decimals
-      - JUST USE gloat64
+      - JUST USE float64
 
 runtime package
     - GOOS
@@ -182,6 +182,25 @@ would produce: 1,2,3. separate const blocks would reset
 
     ## Recursion
     - a func that calls itself
+
+## Pointers
+
+    -  A pointer is a memory address.
+        & - get the memory address i.e. &a
+        *int - variable holding the address of that type
+        * - dereference and get pointer value
+
+    ## When to use Pointers
+    - you don’t want to pass around a lot of data
+    - you want to change the data at a location
+
+    ## Method Sets
+    - What is the set of methods for a given type? That is its method set.
+    - IMPORTANT: “The method set of a type determines the INTERFACES that the type implements.....”
+    - a NON-POINTER RECEIVER works with values that are POINTERS or NON-POINTERS.
+    - a POINTER RECEIVER only works with values that are POINTERS.
+
+
 
 
 
