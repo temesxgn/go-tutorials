@@ -200,12 +200,14 @@ would produce: 1,2,3. separate const blocks would reset
     - a NON-POINTER RECEIVER works with values that are POINTERS or NON-POINTERS.
     - a POINTER RECEIVER only works with values that are POINTERS.
 
+## JSON with GO
 
+    - struct fields should be capitalized, if not it wont be unmarshalled
 
+## Sort
+    - The sort package allows us to sort slices.
 
+## BCrypt
 
-
-
-
-
-
+    - Encrypt data
+    - Using bcrypt, we will gain further understanding as to how to read and implement code from the standard library
